@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLatest } from './useLatest';
+import { useEventCallback } from './useEventCallback';
 
 type GetWindowEvent<Type extends string> = Type extends keyof WindowEventMap
   ? WindowEventMap[Type]
@@ -16,13 +16,11 @@ export function useWindowEvent(
   cb: (event: Event) => void,
   passive = false
 ) {
-  const latestCb = useLatest(cb);
+  const eventCb = useEventCallback(cb);
 
   useEffect(() => {
-    const handler = (event: Event) => latestCb.current(event);
+    window.addEventListener(type, eventCb, { passive });
 
-    window.addEventListener(type, handler, { passive });
-
-    return () => window.removeEventListener(type, handler);
-  }, [type, latestCb, passive]);
+    return () => window.removeEventListener(type, eventCb);
+  }, [type, eventCb, passive]);
 }
