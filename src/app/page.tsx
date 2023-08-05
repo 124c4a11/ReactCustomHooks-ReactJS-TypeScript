@@ -1,7 +1,21 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Home</h1>
-    </main>
+    <>
+      <h3>useLatest</h3>
+      <ul>
+        <li>
+          <Link href="/uncontrolled-form-problem">
+            Uncontrolled form problem
+          </Link>
+        </li>
+        <li>
+          <Link href="/uncontrolled-form-solution">
+            Uncontrolled form solution
+          </Link>
+        </li>
+      </ul>
+    </>
   );
 }

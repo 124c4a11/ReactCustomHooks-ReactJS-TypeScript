@@ -78,11 +78,10 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
   }
 
   body {
+    margin: 0;
     color: rgb(var(--foreground-rgb));
   }
 `;
