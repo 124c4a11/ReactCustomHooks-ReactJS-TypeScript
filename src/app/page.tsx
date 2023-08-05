@@ -16,6 +16,13 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <h3>useWindowEvent</h3>
+      <ul>
+        <li>
+          <Link href="use-windwon-event-example">useWindowEvent example</Link>
+        </li>
+      </ul>
     </>
   );
 }
