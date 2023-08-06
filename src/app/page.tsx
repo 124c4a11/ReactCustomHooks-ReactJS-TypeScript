@@ -30,6 +30,13 @@ export default function Home() {
           <Link href="use-is-mounted-example">useIsMounted example</Link>
         </li>
       </ul>
+
+      <h3>usePrevious</h3>
+      <ul>
+        <li>
+          <Link href="use-previous-example">usePrevious example</Link>
+        </li>
+      </ul>
     </>
   );
 }
