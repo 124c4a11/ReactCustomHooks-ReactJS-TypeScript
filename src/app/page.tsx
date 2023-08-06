@@ -37,6 +37,20 @@ export default function Home() {
           <Link href="use-previous-example">usePrevious example</Link>
         </li>
       </ul>
+
+      <h3>useCustomCompare (Custom Deps Management)</h3>
+      <ul>
+        <li>
+          <Link href="custom-deps-management-problem">
+            Custom deps management problem
+          </Link>
+        </li>
+        <li>
+          <Link href="custom-deps-management-solution">
+            Custom deps management solution
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }

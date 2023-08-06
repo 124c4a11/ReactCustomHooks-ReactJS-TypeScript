@@ -13,7 +13,7 @@ export default function UncontrolledFormProblemPage() {
   return (
     <>
       <h1>Uncontrolled Form Problem</h1>
-      <p>Look at the console</p>
+      <p>Look at the console!</p>
 
       <UncontrolledForm
         onState1Change={setState1}

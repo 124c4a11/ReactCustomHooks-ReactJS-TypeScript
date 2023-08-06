@@ -8,5 +8,5 @@ export function usePrevious<Value>(value: Value) {
     prevValue.current = value;
   }, [value]);
 
-  return prevValue.current;
+  return prevValue;
 }

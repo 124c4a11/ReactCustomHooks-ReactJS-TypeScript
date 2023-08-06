@@ -12,7 +12,7 @@ export default function UsePreviousExamplePage() {
     }, 1000);
   }, [changingVal]);
 
-  const prevVal = usePrevious(changingVal);
+  const prevVal = usePrevious(changingVal).current;
 
   return (
     <div className="App">
