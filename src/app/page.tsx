@@ -23,6 +23,13 @@ export default function Home() {
           <Link href="use-windwon-event-example">useWindowEvent example</Link>
         </li>
       </ul>
+
+      <h3>useIsMounted</h3>
+      <ul>
+        <li>
+          <Link href="use-is-mounted-example">useIsMounted example</Link>
+        </li>
+      </ul>
     </>
   );
 }
