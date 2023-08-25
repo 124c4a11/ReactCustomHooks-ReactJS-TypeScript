@@ -64,6 +64,15 @@ export default function Home() {
           <Link href="use-safe-state-example">useSafeState example</Link>
         </li>
       </ul>
+
+      <h3>useSearchParamsState</h3>
+      <ul>
+        <li>
+          <Link href="use-search-params-state-example">
+            useSearchParamsState example
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
