@@ -3,6 +3,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
+      <h1>useRef</h1>
+
       <h3>useLatest</h3>
       <ul>
         <li>
@@ -49,6 +51,17 @@ export default function Home() {
           <Link href="custom-deps-management-solution">
             Custom deps management solution
           </Link>
+        </li>
+      </ul>
+
+      <br />
+
+      <h1>useState</h1>
+
+      <h3>useSafeState</h3>
+      <ul>
+        <li>
+          <Link href="use-safe-state-example">useSafeState example</Link>
         </li>
       </ul>
     </>
