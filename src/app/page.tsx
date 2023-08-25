@@ -82,6 +82,13 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <h3>useMap, useSet</h3>
+      <ul>
+        <li>
+          <Link href="use-map-set-example">useMap, useSet example</Link>
+        </li>
+      </ul>
     </>
   );
 }
