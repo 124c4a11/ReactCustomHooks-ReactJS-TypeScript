@@ -73,6 +73,15 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <h3>useLocalStorage, useSessionStorage</h3>
+      <ul>
+        <li>
+          <Link href="use-local-session-storage-example">
+            useLocalStorage, useSessionStorage example
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
