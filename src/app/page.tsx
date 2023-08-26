@@ -99,6 +99,13 @@ export default function Home() {
           <Link href="use-debounce-example">useDebounce example</Link>
         </li>
       </ul>
+
+      <h3>useRafThrottle</h3>
+      <ul>
+        <li>
+          <Link href="use-raf-throttle-example">useRafThrottle example</Link>
+        </li>
+      </ul>
     </>
   );
 }
