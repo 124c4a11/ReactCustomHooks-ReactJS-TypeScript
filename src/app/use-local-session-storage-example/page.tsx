@@ -13,7 +13,8 @@ export default function UseLocalSessionStorageExamplePage() {
   );
 
   return (
-    <div>
+    <>
+      <h1>useLocalStorage, useSessionStorage example</h1>
       <h2>Local value</h2>
       <input
         value={localValue}
@@ -26,6 +27,6 @@ export default function UseLocalSessionStorageExamplePage() {
         onChange={(e) => setSessionValue(e.target.value)}
         type="text"
       />
-    </div>
+    </>
   );
 }

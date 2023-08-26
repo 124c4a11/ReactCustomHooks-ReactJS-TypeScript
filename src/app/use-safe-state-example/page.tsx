@@ -25,10 +25,13 @@ export default function UseSafeStateExamplePage() {
   }, []);
 
   return (
-    <ul>
-      {items.map((item) => (
-        <li key={item.id}>{item.title}</li>
-      ))}
-    </ul>
+    <>
+      <h1>useSafeState example</h1>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ul>
+    </>
   );
 }

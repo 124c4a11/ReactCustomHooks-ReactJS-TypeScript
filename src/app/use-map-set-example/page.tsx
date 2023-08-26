@@ -27,7 +27,9 @@ export default function UseMapSetExamplePage() {
   );
 
   return (
-    <div>
+    <>
+      <h1>useMap, useSet example</h1>
+
       <h4>Key</h4>
       <input type="text" value={key} onChange={(e) => setKey(e.target.value)} />
 
@@ -56,6 +58,6 @@ export default function UseMapSetExamplePage() {
 
       <h4>Map</h4>
       {mapItems}
-    </div>
+    </>
   );
 }

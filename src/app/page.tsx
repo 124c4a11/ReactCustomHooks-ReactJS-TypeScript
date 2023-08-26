@@ -89,6 +89,16 @@ export default function Home() {
           <Link href="use-map-set-example">useMap, useSet example</Link>
         </li>
       </ul>
+
+      <br />
+      <br />
+
+      <h3>useDebounce</h3>
+      <ul>
+        <li>
+          <Link href="use-debounce-example">useDebounce example</Link>
+        </li>
+      </ul>
     </>
   );
 }

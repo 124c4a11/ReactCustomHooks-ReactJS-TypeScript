@@ -17,8 +17,9 @@ export default function UseSearchParamsStateExample() {
   };
 
   return (
-    <div>
+    <>
+      <h1>useSearchParamsState example</h1>
       <input value={value} onChange={onChange} placeholder="Name" />
-    </div>
+    </>
   );
 }
