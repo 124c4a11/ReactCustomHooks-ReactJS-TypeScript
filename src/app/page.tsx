@@ -106,6 +106,13 @@ export default function Home() {
           <Link href="use-raf-throttle-example">useRafThrottle example</Link>
         </li>
       </ul>
+
+      <h3>useOutsideClick</h3>
+      <ul>
+        <li>
+          <Link href="use-outside-click-example">useOutsideClick example</Link>
+        </li>
+      </ul>
     </>
   );
 }
