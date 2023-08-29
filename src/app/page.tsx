@@ -113,6 +113,16 @@ export default function Home() {
           <Link href="use-outside-click-example">useOutsideClick example</Link>
         </li>
       </ul>
+
+      <h3>useLayerManager</h3>
+      <ul>
+        <li>
+          <Link href="modal-problem">Modal problem</Link>
+        </li>
+        <li>
+          <Link href="modal-solution">Modal solution</Link>
+        </li>
+      </ul>
     </>
   );
 }

@@ -22,6 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <PageContainer>{children}</PageContainer>
           </Providers>
         </StyledComponentsRegistry>
+        <div id="modal-root"></div>
       </body>
     </html>
   );
