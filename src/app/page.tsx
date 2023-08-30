@@ -123,6 +123,15 @@ export default function Home() {
           <Link href="modal-solution">Modal solution</Link>
         </li>
       </ul>
+
+      <h3>useResizeObserver</h3>
+      <ul>
+        <li>
+          <Link href="use-resize-observer-example">
+            useResizeObserver example
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
