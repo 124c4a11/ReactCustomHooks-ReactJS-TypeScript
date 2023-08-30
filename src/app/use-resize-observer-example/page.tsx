@@ -3,7 +3,7 @@
 import { useResizeObserver } from '@/hooks/useResizeObserver';
 import { useState, useCallback } from 'react';
 
-export default function UseResizeObserver() {
+export default function UseResizeObserverExamplePage() {
   const [bool, setBool] = useState(false);
 
   const handleResize = useCallback((entries: ResizeObserverEntry[]) => {

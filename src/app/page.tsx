@@ -132,6 +132,13 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <h3>useCombinedRef</h3>
+      <ul>
+        <li>
+          <Link href="use-combined-ref-example">useCombinedRef example</Link>
+        </li>
+      </ul>
     </>
   );
 }
